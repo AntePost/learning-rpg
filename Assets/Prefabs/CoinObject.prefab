@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6837831324989419291}
   - component: {fileID: 4353086266019499837}
   - component: {fileID: 4869917532963895080}
-  - component: {fileID: -3145483633956822629}
   m_Layer: 9
   m_Name: CoinObject
   m_TagString: CanBePickedUp
@@ -134,36 +133,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 7672b93f6e619f34e9b239727b28872c, type: 2}
---- !u!60 &-3145483633956822629
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6837831324989419288}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.21875, y: -0.09375}
-      - {x: -0.15625, y: -0.25}
-      - {x: 0.15625, y: -0.25}
-      - {x: 0.25, y: -0.21875}
-      - {x: 0.25, y: 0.0625}
-      - {x: 0.15625, y: 0.21875}
-      - {x: -0.0625, y: 0.21875}
-      - {x: -0.21875, y: 0.0625}
