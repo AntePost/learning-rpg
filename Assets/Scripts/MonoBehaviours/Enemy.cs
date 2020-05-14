@@ -24,6 +24,8 @@ public class Enemy : Character
     {
         while (true)
         {
+            StartCoroutine(FlickerCharacter());
+            
             hitPoints = hitPoints - damage;
             if (hitPoints <= float.Epsilon)
             {
@@ -54,7 +56,6 @@ public class Enemy : Character
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        print("111");
         if(collision.gameObject.CompareTag("Player"))
         {
             Player player = collision.gameObject.GetComponent<Player>();
